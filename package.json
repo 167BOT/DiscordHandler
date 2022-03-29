@@ -1,0 +1,32 @@
+{
+  "name": "discordhandler",
+  "version": "0.0.1",
+  "description": "A simple discord handler manager and helper",
+  "main": "src/Handler.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/167BOT/DiscordHandler.git"
+  },
+  "keywords": [
+    "discord",
+    "handler",
+    "simpletouse",
+    "discord.js",
+    "loader"
+  ],
+  "author": "167#0353",
+  "license": "ISC",
+  "bin" : {
+    "say":"src/Handler.js"
+  },
+  "bugs": {
+    "url": "https://github.com/167BOT/DiscordHandler/issues"
+  },
+  "homepage": "https://github.com/167BOT/DiscordHandler#readme"
+}
