@@ -9,7 +9,11 @@ const loadEvents = require('./functions/loadEvents.js'),
 client.commands = new Cache();
 client.events = new Cache();
 
-loadCommands(client)
-loadEvents(client)
+function loader(commandsFolder, eventsFolder, json) {
+  loadCommands(client, commandsFolder, json)
+  loadEvents(client, eventsFolder, json)
 
-module.exports = client
+  return client
+}
+
+module.exports = loader

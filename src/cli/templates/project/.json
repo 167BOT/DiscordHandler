@@ -1,0 +1,23 @@
+[
+  {
+  "command" : {
+      "name": "test",
+      "alias" : ["t"],
+      "options": null,
+      "desc" : "A empty command."
+    }
+  },
+  {
+    "message" : {
+      "loadedMessage" : "El evento message ha sido cargado"
+    },
+    "ready" : {
+      "loadedMessage": "El evento ready ha sido cargado"
+    }
+  },
+  {
+    "myCategorie" : {
+      "loadedMessage" : "La carpeta de Tienda ha sido cargada"
+    }
+  }
+]

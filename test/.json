@@ -1,0 +1,20 @@
+[
+  {
+    "comandos" : {
+      "name" : "comandos",
+      "alias" : ["cmds"],
+      "options" : ["Aún está en alpha", "explicit", "allDocument", "set"],
+      "desc" : "Puedes poner aquí los comandos y toda su información a partir de esta plantilla. Recuerda que el key del comando debe de ser el mismo que el del archivo. EJ: el archivo de este comando se llama comandos"
+    }
+  },
+  {
+    "hello" : {
+      "loadedMessage" : "Esto es necesario. Cuando un evento cargue, se reproducirá este mensaje. Pon el mismo nombre del archivo donde tenga el evento"
+    }
+  },
+  {
+    "categorie" : {
+      "loadedMessage" : "Esto es necesario. Al cargar una carpeta, se reproducirá este mensaje. Pon el mismo nombre de la carpeta dónde tengas los comandos"
+    }
+  }
+]

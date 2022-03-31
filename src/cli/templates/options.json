@@ -1,0 +1,61 @@
+{
+  "newproject" : {
+    "path" : "./templates/project"
+  },
+
+  "json" : {
+    "path" : "./templates/json"
+  },
+
+  "eventtemplate" : {
+    "path" : "./templates/events/empty-template"
+  },
+
+  "eventready" : {
+    "path" : "./templates/events/ready"
+  },
+
+  "eventmessagecreate" : {
+    "path" : "./templates/events/messageCreate"
+  },
+
+  "eventmessagedelete" : {
+    "path" : "./templates/events/messageDelete"
+  },
+
+  "eventguildmemberadd" : {
+    "path" : "./templates/events/guildMemberAdd"
+  },
+
+  "eventguildmemberremove" : {
+    "path" : "./templates/events/guildMemberRemove"
+  },
+
+  "commandtemplate" : {
+    "path" : "./templates/commands/empty-template"
+  },
+
+  "eventchannelcreate" : {
+    "path" : "./templates/events/channelCreate"
+  },
+
+  "eventchanneldelete" : {
+    "path" : "./templates/events/channelDelete"
+  },
+
+  "eventguildbanadd" : {
+    "path" : "./templates/events/guildBanAdd"
+  },
+
+  "eventguildbanremove" : {
+    "path" : "./templates/events/guildBanRemove"
+  },
+
+  "eventguildcreate" : {
+    "path" : "./templates/events/guildCreate"
+  },
+
+  "eventguilddelete" : {
+    "path" : "./templates/events/guildDelete"
+  }
+}
