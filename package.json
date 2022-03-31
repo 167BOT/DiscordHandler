@@ -4,7 +4,7 @@
   "description": "A simple discord handler manager and helper",
   "main": "src/Handler.js",
   "bin": {
-    "helpHandler": "bin/myHelper"
+    "helpHandler": "./bin/myHelper"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
