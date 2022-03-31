@@ -1,5 +1,5 @@
 {
-  "name": "@helper/freehandler",
+  "name": "freehandler",
   "version": "1.0.0",
   "description": "A simple discord handler manager and helper",
   "main": "src/Handler.js",
