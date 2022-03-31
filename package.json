@@ -4,7 +4,7 @@
   "description": "A simple discord handler manager and helper",
   "main": "src/Handler.js",
   "bin": {
-    "@helper/helpHandler" : "bin/myHelper"
+    "@helper/helpHandler" : "bin/myHelper",
     "helpHandler": "bin/myHelper"
   },
   "scripts": {
