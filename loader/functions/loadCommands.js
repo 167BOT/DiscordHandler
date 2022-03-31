@@ -28,7 +28,7 @@ fs.readdirSync(path.resolve(folders)).forEach((folder) => {
     client.commands.insert(name, options)
   });
 
-  status = myCommands[2][name].loadedMessage
+  status = myCommands[2][folder].loadedMessage
   consoleNames.push({Nombre: status ?? `¿${folder}?`, Tipo: 'Comandos', Estado:(!status ? "Down" : "Ready")})
   if (!status) return status = {err: true, folder: folder}
 });
