@@ -1,0 +1,74 @@
+[
+  {
+  "help" : {
+      "name": "help",
+      "alias" : ["h", "helpbot"],
+      "options": null,
+      "desc" : "Gives you info about the commands."
+    },
+
+    "ping" : {
+      "name": "ping",
+      "alias" : ["pingbot"],
+      "options": null,
+      "desc" : "Check bot and your messages latency"
+    },
+
+    "prices" : {
+      "name": "prices",
+      "alias" : ["pr"],
+      "options": ["tribus"],
+      "desc" : "Here are offerts with tribe's."
+    },
+
+    "invite" : {
+      "name": "invite",
+      "alias" : ["invitebot"],
+      "options": null,
+      "desc" : "You can invite the bot for your server."
+    },
+
+    "prefix" : {
+      "name": "prefix",
+      "alias" : ["prf"],
+      "options": null,
+      "desc" : "Tells you what is the current prefix."
+    },
+
+    "shop" : {
+      "name": "shop",
+      "alias" : ["shop"],
+      "options": null,
+      "desc" : "Here have information of the shop"
+    },
+
+    "ticket" : {
+      "name": "ticket",
+      "alias" : ["ticket"],
+      "options": null,
+      "desc" : "Try your luck."
+    }
+  },
+  {
+    "message" : {
+      "loadedMessage" : "El evento message ha sido cargado"
+    },
+    "ready" : {
+      "loadedMessage": "El evento ready ha sido cargado"
+    },
+    "guildMemberAdd" : {
+      "loadedMessage": "El evento GUILD_MEMBER_ADD ha sido cargado"
+    },
+    "guildMemberRemove" : {
+      "loadedMessage": "El evento GUILD_MEMBER_REMOVE ha sido cargado"
+    },
+    "channelCreate" : {
+      "loadedMessage" : "El evento channelCreate ha sido cargado xd"
+    }
+  },
+  {
+    "shop" : {
+      "loadedMessage" : "La carpeta de Tienda ha sido cargada"
+    }
+  }
+]
