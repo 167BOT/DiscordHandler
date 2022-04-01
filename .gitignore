@@ -1,4 +1,4 @@
 .git
-$GIT_DIR/commands
-$GIT_DIR/events
+/commands/
+/events/
 node_modules
