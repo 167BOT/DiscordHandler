@@ -2,9 +2,9 @@ const loader = require('../loader/loader.js')
 const moduleErr = require('../utils/moduleErr.js')
 
 class Handler {
-  constructor(commandsFolder, eventsFolder, functionsJSON) {
+  constructor(commandsFolder, eventsFolder, functionsJSON, clientOptions) {
     if (!commandsFolder || !eventsFolder || !functionsJSON) throw new moduleErr('Faltán parámetros. Revisa la documentación: https://github.com/167BOT/FreeHandler#readme')
-    this.client = loader(commandsFolder, eventsFolder, functionsJSON)
+    this.client = loader(commandsFolder, eventsFolder, functionsJSON, clientOptions)
   }
 
   get(type, name) {
